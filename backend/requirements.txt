@@ -1,0 +1,17 @@
+fastapi==0.100.0
+uvicorn[standard]==0.22.0
+SQLAlchemy==2.0.46
+psycopg2-binary==2.9.7
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+python-multipart==0.0.6
+aiofiles==23.1.0
+Pillow==10.0.0
+# Optional (for production training/inference). These packages are large
+# and may require CUDA / special wheels. Install them in a separate
+# environment when you need training/inference support.
+# facenet-pytorch
+# torch
+numpy==1.26.2
+# starlette is already a dependency of fastapi; ensure compatibility
+starlette==0.28.1

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Virtual environments
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Models
+*.csv
+*.pkl
+*.h5
+*.joblib
+data/train/*
+data/test/*
+models/*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
